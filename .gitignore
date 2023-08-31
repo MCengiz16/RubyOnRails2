@@ -1,0 +1,64 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore editor temporary files
+*.swp
+*~
+.vscode/
+
+# Ignore log files
+/log/*.log
+
+# Ignore compiled assets
+/public/assets
+
+# Ignore node modules
+/node_modules
+
+# Ignore SQLite database
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore development database configuration
+/config/database.yml
+
+# Ignore credentials file
+/config/master.key
+
+# Ignore environment-specific files
+.env*
+
+# Ignore cache and temp files
+/tmp/
+/cache/
+/vendor/bundle/
+
+# Ignore capistrano deployment files
+/capistrano
+
+# Ignore Heroku-specific files
+/public/assets
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+/yarn.lock
+
+# Ignore system-specific files
+*.iml
+.idea/
+
+# Ignore the local application configuration
+/config/application.yml
+
+# Ignore any other sensitive or temporary files
+*.bak
+*.swp
+*.swo
+*.swn
+*.bak
+*.un~
+*~
+Thumbs.db
+ehthumbs.db
+desktop.ini
