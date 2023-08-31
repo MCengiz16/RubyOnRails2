@@ -19,9 +19,6 @@
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
-# Ignore development database configuration
-/config/database.yml
-
 # Ignore credentials file
 /config/master.key
 
